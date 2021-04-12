@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' href='mhw2.css'>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">  
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+        <script src="contents.js" defer></script>
+        <script src="script.js" defer></script>
+    </head>
+    
+    <title>StatisticheSerieA</title>
+
+    <body>
+        <header>
+            <h1>Giocatori Serie A</h1>
+        </header>
+
+        <section>
+            <div id="preferiti-container">
+                <h2>Preferiti:</h2>
+                <div class="preferiti" id="preferiti"></div>
+            </div>
+
+            <div class="container-searchBox">
+                <div class="search-box">
+                    <input type="text" class="search" id="search" placeholder="Cerca un giocatore" onkeyup="search()">
+                </div>
+            </div>
+
+            <div id="giocatori" class="giocatori-container">
+            </div>
+        </section>
+    </body>
+
+</html>
