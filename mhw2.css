@@ -1,0 +1,103 @@
+header h1{
+    text-align: center;
+    font-family: 'Merriweather', 'serif';
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+#preferiti-container{
+    display: none;
+}
+
+.preferiti{
+    display: flex;
+    overflow: auto;
+}
+
+.giocatori-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.player{
+    background-color: #f4f4f4;
+    border: 1px solid #dcdcdc;
+    min-width: 120px;
+    padding: 10px;
+    margin-bottom: 20px;
+    max-width: 240px;
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+}
+
+.box1 .nome{
+    flex-grow: 2;
+    padding: 10px;
+    font-family: 'Merriweather', 'serif';
+}
+
+.box2 .immagine{
+    width: 100%;
+}
+
+.box3{
+    text-align: center;
+    padding: 10px;
+}
+
+.box3 label{
+    cursor: pointer;
+}
+
+.statistiche-open{
+    display: block;
+}
+
+.statistiche-close{
+    display: none;
+}
+
+.container-searchBox{
+    padding: 0 20px 50px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search-box{
+    position: absolute;
+    width: auto;
+}
+
+.search{
+    position: relative;
+    display: inline;
+    height: 30px;
+    padding: 0px 15px 0px 15px;
+}
+
+.details{
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    font-family: 'Merriweather', 'serif';
+}
+
+.cuore-rosso{
+    display: flex;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.cuore-bianco{
+    display: flex;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
